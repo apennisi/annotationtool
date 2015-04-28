@@ -25,4 +25,4 @@ which can be achieved by the following command sequence:
 Once the build phase has been successfully, you can use AT by launching the _annotationtool_
 file, located in the _bin_ folder.
 
-For more information, you can visit the following link: 
+For more information, you can visit the following link: [here](http://www.dis.uniroma1.it/~pennisi).
