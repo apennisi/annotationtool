@@ -20,7 +20,7 @@ which can be achieved by the following command sequence:
 * cmake ../
 * make -j<number-of-cores+1>
 
-## How to use it
+## How to use
 
 Once the build phase has been successfully, you can use AT by launching the _annotationtool_
 file, located in the _bin_ folder.
