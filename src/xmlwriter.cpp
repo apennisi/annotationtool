@@ -54,13 +54,13 @@ void XmlWriter::write(const std::vector<std::vector<bbox::Rectangle*> > &rectang
     {
         if((*it).size() != 0)
         {
-            file << "\t<frame number=\"" << it - rectangles.begin() << ">" << std::endl;
+            file << "\t<frame number=\"" << it - rectangles.begin() << "\">" << std::endl;
             file << "\t\t<objectlist>" << std::endl;
 
             for(it2 = (*it).begin(); it2 != (*it).end(); ++it2)
             {
                 RectangleInformation info = (*it2)->getInfo();
-                file << "\t\t\t<object id=\"" << info.getId() << ">" << std::endl;
+                file << "\t\t\t<object id=\"" << info.getId() << "\">" << std::endl;
                 file << "\t\t\t\t<box h=\"" << info.getHeight() << "\" w=\"" << info.getWidth() << "\" xc=\""
                      << info.getCenter().x << "\" yc=\"" << info.getCenter().y << "\" />" << std::endl;
                 file << "\t\t\t</object>" << std::endl;
